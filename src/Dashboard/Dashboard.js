@@ -34,7 +34,7 @@ import DataTable from "./MonthlyTable";
 import Example from "./BarChart";
 
 // For Switch Theming
-import { createMuiTheme, ThemeProvider } from "@material-ui/core/styles";
+import { createTheme, ThemeProvider } from "@material-ui/core/styles";
 
 function Copyright() {
   return (
@@ -136,7 +136,7 @@ export default function Dashboard() {
   const palletType = darkState ? "light" : "dark";
   const mainPrimaryColor = darkState ? green[500] : lightGreen[500];
   const mainSecondaryColor = darkState ? pink[900] : deepPurple[500];
-  const darkTheme = createMuiTheme({
+  const darkTheme = createTheme({
     palette: {
       type: palletType,
       primary: {
