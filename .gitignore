@@ -1,15 +1,15 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-/node_modules
+50-30-20-frontend/node_modules/
 /.pnp
 .pnp.js
 
 # testing
-/coverage
+50-30-20-frontend/coverage/*
 
 # production
-/build
+50-30-20-frontend/build/
 
 # misc
 .DS_Store
@@ -21,3 +21,11 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+50-30-20-backend/venv/
+
+.flaskenv
+
+venv/
+
+50-30-20-backend/.flaskenv

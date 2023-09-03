@@ -58,17 +58,16 @@ const stackedBarData = [
 ];
 
 const monthlyExpensesRows = [
-    { id: 0, name: 'Rent', month: '2019-03-25 15:30:00', category: 'needs' , amount: 1000},
-    { id: 1, name: 'Car Loan', month: '2019-03-25 15:30:00', category: 'needs' , amount: 500},
-    { id: 2, name: 'Groceries', month: '2019-03-25 15:30:00', category: 'needs' , amount: 300},
-    { id: 3, name: 'Eating Out', month: '2019-03-25 15:30:00', category: 'wants' , amount: 250},
-    { id: 4, name: 'ROTH IRA', month: '2019-03-25 15:30:00', category: 'savings' , amount: 540},
-    { id: 5, name: 'Clothes', month: '2019-03-25 15:30:00', category: 'wants' , amount: 150},
-    { id: 6, name: 'Insurance', month: '2019-03-25 15:30:00', category: 'needs' , amount: 125},
+    { id: 0, name: 'Rent', month: '2023-01-01 18:00:00', category: 'needs' , amount: 1000},
+    { id: 1, name: 'Car Loan', month: '2023-01-01 18:00:00', category: 'needs' , amount: 500},
+    { id: 2, name: 'Groceries', month: '2023-01-01 18:00:00', category: 'needs' , amount: 300},
+    { id: 3, name: 'Eating Out', month: '2023-01-01 18:00:00', category: 'wants' , amount: 250},
+    { id: 4, name: 'ROTH IRA', month: '2023-01-01 18:00:00', category: 'savings' , amount: 540},
+    { id: 5, name: 'Clothes', month: '2023-01-01 18:00:00', category: 'wants' , amount: 150},
+    { id: 6, name: 'Insurance', month: '2023-01-01 18:00:00', category: 'needs' , amount: 125},
 ];
 
 const monthlyExpensesColumns = [
-    // { field: 'id', headerName: 'ID', width: 70, },
     { field: 'name', headerName: 'Name', width: 250, editable: true},
     { 
         field: 'month',
@@ -87,15 +86,6 @@ const monthlyExpensesColumns = [
         valueOptions: ['Needs', 'Wants', 'Savings'],
     },
     { field: 'amount', headerName: 'amount', type: 'number', width: 90, editable: true},
-    // {
-    //   field: 'fullName',
-    //   headerName: 'Full name',
-    //   description: 'This column has a value getter and is not sortable.',
-    //   sortable: false,
-    //   width: 160,
-    //   valueGetter: (params) =>
-    //     `${params.row.firstName || ''} ${params.row.lastName || ''}`,
-    // },
   ];
   
 
